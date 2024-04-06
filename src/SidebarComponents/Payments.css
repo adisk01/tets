@@ -1,0 +1,91 @@
+.PaymentcardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .head{
+    font-size: 40px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    text-decoration-thickness:0.5rem;
+  }
+  .Paymentcard {
+    width: 700px;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .loadingText {
+    color: #888;
+    font-size: 30px; /* Adjust the font size as needed */
+  }
+  .Paymenttext{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .cardActions {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  /* Increase text size for other Typography components */
+  .cardContent Typography {
+    font-size: 500px; /* Adjust the font size as needed */
+  }
+  
+  /* Add more styles as needed */
+  .payment-container {
+    margin: 20px;
+  }
+  .input-label {
+    font-size: 16px;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 8px;
+  }
+  .payment-table {
+    width: 120%;
+    border-collapse: collapse;
+    margin-left: -5%;
+  }
+  
+  .payment-table td, .payment-table th {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .payment-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .payment-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .payment-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .payment-table strong {
+    font-weight: bold;
+  }
+  
+  .payment-table button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+    

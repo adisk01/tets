@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballu+Bhai+2&display=swap');
+
+/* body {
+  font-family: 'Ballu Bhai 2', "sans-serif";
+} */
+.web3-container {
+  max-width: 1000px;
+  margin:5% auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Web3 Header */
+.web3-header h1 {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.web3-header p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+/* Web3 Details */
+.web3-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.web3-details li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.web3-details li svg {
+  margin-right: 10px;
+}
+
+/* Semesters */
+.semesters {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Stylish Dropdown Buttons */
+.dropdown-button {
+  background-color: #a4bfd1;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-button:hover {
+  background-color: #8ccaf3;
+}
+
+.dropdown-item {
+  font-size: 16px;
+  color: #333333;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .web3-container {
+    padding: 10px;
+  }
+
+  .web3-header h1 {
+    font-size: 24px;
+  }
+
+  .web3-details li {
+    font-size: 14px;
+  }
+
+  .semesters {
+    flex-direction: column;
+  }
+  .web3-details{
+    display: none;
+  }
+  .web3-container p{
+    display: none;
+  }
+}

@@ -1,0 +1,93 @@
+/* .stepscontainer {
+    width: 80%;
+    display: flex;
+    margin:10px auto;
+    padding-top: 2.5%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.step {
+    width: 20%;
+    text-align: center;
+    position: relative;
+    background-color: #fefcfc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    background-color:#FF4880;
+}
+.step:hover p{
+    color: #fff;
+    font-size: large;
+}
+
+.step::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 50px;
+    height: 2px;
+    background-color: #ccc;
+    transform: translateY(-50%);
+}
+
+.step:last-child::after {
+    display: none;
+}
+
+.step p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666565;
+}
+
+
+@media screen and (max-width: 768px) {
+    .step {
+        width: 90%;
+    }
+    .step p {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 480px) {
+    .stepscontainer {
+        flex-direction: column;
+    }
+    .step {
+        width: 90%;
+    }
+} */
+.beforeSubscribing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Subscribing{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 3%;
+}
+.Subscribing img{
+    width: 12rem;
+    height: auto;
+    padding: 1%;
+}
+.afterSubscribing{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}

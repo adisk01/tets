@@ -1,0 +1,119 @@
+.courses{
+    display: flex;
+    justify-content: space-around;
+}
+.coursesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.card {
+  width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-reviews {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-reviews i {
+    color: #f0ad4e; /* Color for filled stars */
+  }
+  
+  .card-reviews .review-count {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  .card-weeks {
+    font-size: 14px;
+    color: #777;
+  }
+  .modal {
+    font-size: 12px;
+    height: 500px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .card:hover .card-content {
+    background-color: #f9f9f9;
+  }
+  @media screen and (max-width: 576px) {
+    .courses {
+      display: flex;
+      flex-direction: column;
+    }
+    .coursesContainer{
+        padding: 5%;
+    }
+  }
+  

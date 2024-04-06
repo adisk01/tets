@@ -1,0 +1,13 @@
+/* .Features{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #8400ff;
+    font-family: 'Baloo Bhai 2', sans-serif;
+} */
+.features-container{
+    margin-left:3%;
+    margin-right: 3%;
+
+}

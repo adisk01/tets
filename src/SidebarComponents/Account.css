@@ -1,0 +1,13 @@
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .account-card {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px;
+  }
+  

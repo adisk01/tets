@@ -1,0 +1,30 @@
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  .history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .history-table tr:hover {
+    background-color: #ddd;
+  }
+  

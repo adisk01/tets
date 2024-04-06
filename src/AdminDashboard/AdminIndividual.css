@@ -1,0 +1,60 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+   
+  
+  }
+  .restofpage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .welcome-message{
+    margin-top: 100px;
+    font-size: 25px;
+    align-self: center;
+    color: rgb(50, 98, 50);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 40px;
+    
+  ; /* You can change the background color as needed */
+    color: #fff; /* Text color */
+  }
+  
+ 
+  
+  .text-box {
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    color: black;
+   
+  }
+  
+  .alert-box {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  /* Style for NotificationsIcon */
+  .MuiSvgIcon-root {
+    margin-right: 10px;
+    color: black;
+    height: 200px;
+    width: 40px; /* Adjust margin as needed */
+  }
+  
+  /* Style for Log Out Button */
+  .MuiButton-contained {
+    background-color: #fff; /* Button background color */
+    color:grey;
+    flex: 1;
+  }
+  

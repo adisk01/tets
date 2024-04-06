@@ -1,0 +1,44 @@
+.Cards{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    font-weight: 700;
+    color: aqua;
+    padding: 2%;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+/* Testimonials.css */
+
+/* Existing styles for larger screens */
+
+@media (max-width: 600px) {
+    /* Add styles for mobile screens here */
+    .Testimonials {
+        justify-content: center;
+        align-items: center;
+      padding: 10px; /* Adjust the padding or other styles for mobile screens */
+    }
+  
+    .heading {
+      font-size: 1.5rem; /* Adjust the font size for mobile screens */
+    }
+  
+    .Cards {
+      /* Add mobile-specific styles for the container of TestimonialCards */
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    /* Add more mobile-specific styles as needed */
+  }
+  

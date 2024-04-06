@@ -1,0 +1,92 @@
+.SubscriptioncardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .Subscriptioncard {
+    width: 700px;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  .head{
+    font-size: 40px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    text-decoration-thickness:0.5rem;
+  }
+  .Subscriptiontext{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .loadingText {
+    color: #888;
+    font-size: 30px;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+
+  .cardContent Typography {
+    font-size: 30px;
+  }
+  /* Subscription.css */
+
+.subscription-container {
+  margin: 20px;
+}
+.input-label {
+  font-size: 16px;
+  color: #333; /* Adjust color as needed */
+  margin-bottom: 8px;
+}
+.subscription-table {
+  width: 120%;
+  border-collapse: collapse;
+  margin-left: -5%;
+}
+
+.subscription-table td, .subscription-table th {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.subscription-table th {
+  background-color: #f2f2f2;
+}
+
+.subscription-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.subscription-table tr:hover {
+  background-color: #ddd;
+}
+
+.subscription-table strong {
+  font-weight: bold;
+}
+
+.subscription-table button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+  

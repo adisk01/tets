@@ -1,0 +1,43 @@
+/* HelpCenter.css */
+.support-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .file-upload {
+    margin-top: 10px;
+  }
+  
+  .submit {
+    margin-top: 10px;
+  }
+  
+  .Cancel {
+    margin-top: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
